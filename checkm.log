@@ -1,0 +1,34 @@
+[2023-03-12 16:29:44] INFO: CheckM v1.0.18
+[2023-03-12 16:29:44] INFO: checkm lineage_wf -t 4 --reduced_tree /kb/module/work/tmp/bins_1678638572113 /kb/module/work/tmp/output_1678638572113
+[2023-03-12 16:29:44] INFO: [CheckM - tree] Placing bins in reference genome tree.
+[2023-03-12 16:29:44] INFO: Identifying marker genes in 1 bins with 4 threads:
+[2023-03-12 16:30:07] INFO: Saving HMM info to file.
+[2023-03-12 16:30:07] INFO: Calculating genome statistics for 1 bins with 4 threads:
+[2023-03-12 16:30:07] INFO: Extracting marker genes to align.
+[2023-03-12 16:30:07] INFO: Parsing HMM hits to marker genes:
+[2023-03-12 16:30:07] INFO: Extracting 43 HMMs with 4 threads:
+[2023-03-12 16:30:08] INFO: Aligning 43 marker genes with 4 threads:
+[2023-03-12 16:30:08] INFO: Reading marker alignment files.
+[2023-03-12 16:30:08] INFO: Concatenating alignments.
+[2023-03-12 16:30:08] INFO: Placing 1 bins into the genome tree with pplacer (be patient).
+[2023-03-12 16:31:37] INFO: { Current stage: 0:01:53.490 || Total: 0:01:53.490 }
+[2023-03-12 16:31:37] INFO: [CheckM - lineage_set] Inferring lineage-specific marker sets.
+[2023-03-12 16:31:37] INFO: Reading HMM info from file.
+[2023-03-12 16:31:37] INFO: Parsing HMM hits to marker genes:
+[2023-03-12 16:31:37] INFO: Determining marker sets for each genome bin.
+[2023-03-12 16:31:38] INFO: Marker set written to: /kb/module/work/tmp/output_1678638572113/lineage.ms
+[2023-03-12 16:31:38] INFO: { Current stage: 0:00:00.504 || Total: 0:01:53.994 }
+[2023-03-12 16:31:38] INFO: [CheckM - analyze] Identifying marker genes in bins.
+[2023-03-12 16:31:38] INFO: Identifying marker genes in 1 bins with 4 threads:
+[2023-03-12 16:32:46] INFO: Saving HMM info to file.
+[2023-03-12 16:32:46] INFO: { Current stage: 0:01:07.962 || Total: 0:03:01.957 }
+[2023-03-12 16:32:46] INFO: Parsing HMM hits to marker genes:
+[2023-03-12 16:32:46] INFO: Aligning marker genes with multiple hits in a single bin:
+[2023-03-12 16:32:47] INFO: { Current stage: 0:00:00.627 || Total: 0:03:02.584 }
+[2023-03-12 16:32:47] INFO: Calculating genome statistics for 1 bins with 4 threads:
+[2023-03-12 16:32:47] INFO: { Current stage: 0:00:00.208 || Total: 0:03:02.792 }
+[2023-03-12 16:32:47] INFO: [CheckM - qa] Tabulating genome statistics.
+[2023-03-12 16:32:47] INFO: Calculating AAI between multi-copy marker genes.
+[2023-03-12 16:32:47] INFO: Reading HMM info from file.
+[2023-03-12 16:32:47] INFO: Parsing HMM hits to marker genes:
+[2023-03-12 16:32:47] INFO: { Current stage: 0:00:00.587 || Total: 0:03:03.380 }
